@@ -1,0 +1,32 @@
+{
+  "name": "exdash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkex/exdash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkex/exdash/issues"
+  },
+  "homepage": "https://github.com/tkex/exdash#readme",
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
